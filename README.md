@@ -1,4 +1,4 @@
-# PHP_And_Docker_Proyect
+# CRUD_PHP_AJAX
 Proyecto en php sobre el clasico juego de piedra papel o tijera.
 
 ## Requisitos Previos
