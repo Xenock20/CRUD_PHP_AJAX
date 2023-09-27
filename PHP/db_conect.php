@@ -41,9 +41,9 @@ function handleDeleteRequest($conn) {
 
 // Función para manejar solicitudes POST
 function handlePostRequest($conn) {
-    $nombre = $_POST['nombre'];
-    $email = $_POST['email'];
-    $codigoCurso = $_POST['codigo_curso'];
+    $nombre = filter_var($_POST['nombre'], FILTER_SANITIZE_FULL_SPECIAL_CHARS);
+    $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+    $codigoCurso = filter_var($_POST['codigo_curso'], FILTER_SANITIZE_NUMBER_INT);
 
     $sql = "";
 
@@ -73,4 +73,3 @@ function getAlumnosAsJSON($conn) {
 
     return json_encode($datos);
 }
-?>
