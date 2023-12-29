@@ -1,5 +1,5 @@
 # CRUD_PHP_AJAX
-Proyecto en php sobre el clasico juego de piedra papel o tijera.
+Proyecto en php para creacion, lectura, actualizacion y eliminacion de.
 
 ## Requisitos Previos
 
