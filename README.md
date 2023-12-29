@@ -1,5 +1,5 @@
 # CRUD_PHP_AJAX
-Proyecto en php para creacion, lectura, actualizacion y eliminacion de.
+Proyecto en php para creacion, lectura, actualizacion y eliminacion de alumnos en cursos.
 
 ## Requisitos Previos
 
